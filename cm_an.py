@@ -9,7 +9,7 @@ class RestaurantScoreAnalyzer:
     def __init__(self, csv_file_path):
         self.csv_file_path = csv_file_path
         self.data = self.file_reader()
-        self.tokened_list = self.word_tokenizer(2, 3, 'پیتزا')  # توکنایز کردن نظرات و سفارشات مرتبط با "پیتزا"
+        self.tokened_list = self.word_tokenizer(2, 3, 'پیتزا')  
 
     def file_reader(self):
         try:
