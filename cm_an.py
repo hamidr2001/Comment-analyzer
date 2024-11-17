@@ -5,7 +5,6 @@ import pandas as pd
 from nltk.corpus.reader import WordListCorpusReader
 
 
-
 class RestaurantScoreAnalyzer:
     def __init__(self, csv_file_path):
         self.csv_file_path = csv_file_path
